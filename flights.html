@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Airport Website</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+ <body background ="./background.jpg">
+ <header>
+  <h1>Airport Website</h1>
+  <nav>
+   <ul>
+    <li><a href="flights">Flights</a></li>
+    <li><a href="terminal">Terminal</a></li>
+    <li><a href="contact">Contact</a></li>
+   </ul>
+  </nav>
+ </header>
+  <main>
+
+<section id="flights">
+ <h2>Flights</h2>
+ <input type="text" id="flights-filter" placeholder="Filter flights...">
+ <select id="flights-sort">
+  <option value="departure">Sort by Departure</option>
+  <option value="flightNumber">Sort by Flight Number</option>
+ </select>
+ <table id="flights-table">
+  <thead>
+   <tr>
+    <th>Flight Number</th>
+    <th>Departure</th>
+    <th>Arrival</th>
+    <th>Aircraft</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>AA101</td>
+    <td>10:00 AM</td>
+    <td>11:30 AM</td>
+    <td><img src="./pic1.jpg" alt="Aircraft 1" class="flight-pic" width="100" height="100"></td>
+   </tr>
+   <tr>
+    <td>AA102</td>
+    <td>11:00 AM</td>
+    <td>12:30 PM</td>
+    <td><img src="./pic2.jpg" alt="Aircraft 2" class="flight-pic" width="100" height="100"></td>
+   </tr>
+  </tbody>
+ </table>
+</section>
+</main>
+</body>
+</html>
